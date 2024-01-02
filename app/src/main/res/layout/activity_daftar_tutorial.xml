@@ -31,13 +31,11 @@
                     android:padding="16dp"
                     android:background="@color/primaryColor">
                     <ImageView
-                        android:id="@+id/logo_materi1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:src="@drawable/logo_materi" />
                     <TextView
-                        android:id="@+id/materi1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tutorial Fitur Kalkulator"
@@ -62,13 +60,11 @@
                     android:padding="16dp"
                     android:background="@color/primaryColor">
                     <ImageView
-                        android:id="@+id/logo_materi2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:src="@drawable/logo_materi" />
                     <TextView
-                        android:id="@+id/materi2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tutorial Fitur Materi"
@@ -93,13 +89,11 @@
                     android:padding="16dp"
                     android:background="@color/primaryColor">
                     <ImageView
-                        android:id="@+id/logo_materi3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:src="@drawable/logo_materi" />
                     <TextView
-                        android:id="@+id/materi3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tutorial Fitur Umpan Balik"
@@ -124,16 +118,43 @@
                     android:padding="16dp"
                     android:background="@color/primaryColor">
                     <ImageView
-                        android:id="@+id/logo_materi4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:src="@drawable/logo_materi" />
                     <TextView
-                        android:id="@+id/materi4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tutorial Fitur Tentang"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/lato_heavy" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/tutorial5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:background="@color/primaryColor">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/youtube_logo" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Video Tutorial Aplikasi"
                         android:textColor="@color/white"
                         android:textStyle="bold"
                         android:layout_gravity="center"

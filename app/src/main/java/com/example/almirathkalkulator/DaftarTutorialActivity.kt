@@ -1,6 +1,7 @@
 package com.example.almirathkalkulator
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -45,6 +46,23 @@ class DaftarTutorialActivity : AppCompatActivity() {
         binding.tutorial4.setOnClickListener {
             intent.putExtra("tutorial", "tutorial4")
             startActivity(intent)
+        }
+        binding.tutorial5.setOnClickListener {
+            openYouTubeVideo()
+        }
+    }
+    fun openYouTubeVideo() {
+        val videoId = "mz67QnStdD8"
+
+        val intentApp = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
+        val intentWeb = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=$videoId"))
+
+        // Memeriksa apakah aplikasi YouTube terinstall
+        if (intentApp.resolveActivity(packageManager) != null) {
+            startActivity(intentApp)
+        } else {
+            // Jika tidak terinstall, buka YouTube melalui browser
+            startActivity(intentWeb)
         }
     }
 }
