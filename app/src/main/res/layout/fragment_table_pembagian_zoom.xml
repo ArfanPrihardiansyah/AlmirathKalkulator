@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TablePembagianZoomFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_tableHasil"
+            android:layout_width="1000dp"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/table_second_primary"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                style="@style/SizeTablePembagianZoom"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:text="Ahli Waris"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="17.5"
+                    android:layout_marginStart="4dp"
+                    android:text="Bagian"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="12.5"
+                    android:layout_marginStart="4dp"
+                    android:text="Jumlah Orang"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:layout_marginStart="4dp"
+                    android:text="Harta Bagian"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="20"
+                    android:layout_marginStart="4dp"
+                    android:text="Harta Per Orang"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:text="Keterangan"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_tableHasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:listitem="@layout/table_hasil_zoom_recycle_view" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                style="@style/SizeTablePembagianZoom"
+                android:layout_marginTop="1dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="24.3"
+                    android:text="Total Pembagian Harta"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+                <TextView
+                    android:id="@+id/txt_totalPembagianHarta"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="25.7"
+                    android:layout_marginStart="4dp"
+                    android:text="Rp. 100.000"
+                    style="@style/TeksTablePembagianZoom"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/table_primary"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</HorizontalScrollView>

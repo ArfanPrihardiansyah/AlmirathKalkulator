@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/toolbar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="19sp"
+            android:text="Berapa bagian ahli waris utama ?"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="1. Pembagian waris pada Anak Laki-Laki:"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Selamanya menjadi Ashobah (sisa).
+                \n\nb. Kaidah Ashobah (sisa) = bagi laki-laki seperti bagian dua perempuan"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="2. Pembagian waris pada Anak Perempuan:"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Ashobah (Ashobah Bil Ghoir), jika bersama anak laki-laki.
+                \n\nb. 1/2 (Setengah), jika seorang diri dan tidak bersama anak laki-laki.
+                \n\nc. 2/3 (Dua Pertiga), jika berdua atau lebih dan tidak bersama anak laki-laki."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="3. Pembagian waris pada Suami:"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. 1/2 (Setengah), jika tidak bersama anak atau cucu (Laki-laki / Perempuan).
+                \n\nb. 1/4 (Seperempat), jika bersama anak atau cucu (Laki-laki / Perempuan)."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="4. Pembagian waris pada Istri:"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. 1/4 (Seperempat), jika tidak bersama anak atau cucu (Laki-laki / Perempuan).
+                \n\nb. 1/8 (Seperdelapan), jika bersama anak atau cucu (Laki-laki / Perempuan)."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="5. Pembagian waris pada Ayah:"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Ashobah (sisa), jika tidak ada anak (Laki-laki / Perempuan).
+                \n\nb. 1/6 (Seperenam) + Ashobah, jika bersama anak perempuan / cucu perempuan dari anak laki-laki.
+                \n\nc. 1/6 (Seperenam), jika bersama anak laki-laki / cucu laki-laki"
+            android:textSize="18sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="6. Pembagian waris pada Ibu:"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. 1/3 (Sepertiga), jika tidak bersama anak atau cucu, baik laki-laki / perempuan atau 2 / lebih saudara.
+                \n\nb. 1/6 (Seperenam), jika bersama anak atau cucu, baik laki-laki / perempuan atau 2 / lebih saudara.
+                \n\nc. 1/3 (Sepertiga) Sisa, jika ahli waris hanya ayah, ibu, suami/istri."
+            android:textSize="18sp"></TextView>
+
+    </LinearLayout>
+</ScrollView>

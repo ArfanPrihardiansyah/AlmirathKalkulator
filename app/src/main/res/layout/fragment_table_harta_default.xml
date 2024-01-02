@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_tableHarta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        android:background="@drawable/table_second_primary"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Keterangan"
+                style="@style/TeksTableDefault"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/table_primary"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:layout_marginStart="4dp"
+                android:text="Jumlah"
+                style="@style/TeksTableDefault"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/table_primary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            style="@style/SizeTable"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_hartaAwal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Harta Pewaris"
+                style="@style/TeksTableDefault"
+                android:gravity="start|center"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+
+            <TextView
+                android:id="@+id/hartaAwal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:layout_marginStart="4dp"
+                android:paddingEnd="5dp"
+                android:gravity="end|center"
+                android:text="Rp. 100.000"
+                style="@style/TeksTableDefault"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            style="@style/SizeTable"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_hutang"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Hutang Pewaris"
+                style="@style/TeksTableDefault"
+                android:gravity="start|center"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+
+            <TextView
+                android:id="@+id/hutang"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:layout_marginStart="4dp"
+                android:paddingEnd="5dp"
+                android:gravity="end|center"
+                android:text="Rp. 100.000"
+                style="@style/TeksTableDefault"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            style="@style/SizeTable"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_wasiat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Wasiat Pewaris"
+                style="@style/TeksTableDefault"
+                android:gravity="start|center"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+
+            <TextView
+                android:id="@+id/wasiat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:layout_marginStart="4dp"
+                android:paddingEnd="5dp"
+                android:gravity="end|center"
+                android:text="Rp. 100.000"
+                style="@style/TeksTableDefault"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            style="@style/SizeTable"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_biayaPerawatanJenazah"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:text="Biaya Perawatan Jenazah"
+                style="@style/TeksTableDefault"
+                android:gravity="start|center"
+                android:paddingLeft="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+
+            <TextView
+                android:id="@+id/biayaPerawatanJenazah"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:layout_marginStart="4dp"
+                android:paddingEnd="5dp"
+                android:gravity="end|center"
+                android:text="Rp. 100.000"
+                style="@style/TeksTableDefault"
+                android:textColor="@color/black"
+                android:background="@drawable/table_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:text="Total Harta Bersih"
+                style="@style/TeksTableDefault"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/table_primary"/>
+            <TextView
+                android:id="@+id/txt_totalHartaBersih"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="25"
+                android:layout_marginStart="4dp"
+                android:paddingEnd="5dp"
+                android:text="Rp. 100.000"
+                style="@style/TeksTableDefault"
+                android:gravity="end|center"
+                android:textColor="@color/white"
+                android:background="@drawable/table_primary"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

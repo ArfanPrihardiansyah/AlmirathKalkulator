@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HartaActivity">
+    <include layout="@layout/layout_toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harta Pewaris*"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/number_hartaPewaris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rp. 0"
+            android:fontFamily="@font/lato_heavy"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/input_harta"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:hint="0"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/custom_input_text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hutang Pewaris"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/number_hutang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rp. 0"
+            android:fontFamily="@font/lato_heavy"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/input_hutang"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:hint="0"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/custom_input_text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wasiat Pewaris"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/number_wasiat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rp. 0"
+            android:fontFamily="@font/lato_heavy"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/input_wasiat"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:hint="0"
+            android:textSize="25sp"
+            android:fontFamily="@font/lato_heavy"
+            android:paddingLeft="20dp"
+            android:imeOptions="actionNext"
+            android:background="@drawable/custom_input_text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Biaya Perawatan Jenazah"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/number_biayaPerawatanJenazah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Rp. 0"
+            android:fontFamily="@font/lato_heavy"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/input_biayaPerawatanJenazah"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:hint="0"
+            android:fontFamily="@font/lato_heavy"
+            android:textSize="25sp"
+            android:paddingLeft="20dp"
+
+            android:imeOptions="actionDone"
+            android:background="@drawable/custom_input_text"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_lanjut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/primaryColor"
+        android:fontFamily="@font/lato_heavy"
+        android:text="Lanjut"
+        android:textSize="22sp" />
+
+</RelativeLayout>

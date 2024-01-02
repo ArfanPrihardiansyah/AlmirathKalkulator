@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/toolbar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="19sp"
+            android:text="Siapa saja yang terhalang oleh ahli waris utama ?"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Anak Laki-laki akan menghalangi waris dari:"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Cucu Laki-laki.
+                \n\nb. Cucu Perempuan.
+                \n\nc. Saudara Kandung Laki-laki.
+                \n\nd. Saudara Kandung Perempuan.
+                \n\ne. Saudara Seayah Laki-laki.
+                \n\nf. Saudara Seayah Perempuan.
+                \n\ng. Saudara Seibu Laki-laki.
+                \n\nh. Saudara Seibu Perempuan.
+                \n\ni. Anak dari Saudara Kandung Laki-laki.
+                \n\nj. Anak dari Saudara Seayah Laki-laki.
+                \n\nk. Paman Kandung.
+                \n\nl. Paman Sekakek.
+                \n\nm. Anak Laki-laki dari Paman Kandung.
+                \n\nn. Anak Laki-laki dari Paman Sekakek."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="2. Anak Perempuan akan menghalangi waris dari:"
+            android:fontFamily="@font/lato_heavy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Cucu Perempuan (Berlaku ketika 2 atau lebih Anak Perempuan.
+                \n\nb. Saudara Seibu Laki-laki.
+                \n\nc. Saudara Seibu Perempuan."
+            android:textSize="18sp"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="3. Ayah akan menghalangi waris dari:"
+            android:fontFamily="@font/lato_heavy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Kakek.
+                \n\nb. Nenek dari Ayah.
+                \n\nc. Saudara Kandung Laki-laki.
+                \n\nd. Saudara Kandung Perempuan.
+                \n\ne. Saudara Seayah Laki-laki.
+                \n\nf. Saudara Seayah Perempuan.
+                \n\ng. Saudara Seibu Laki-laki.
+                \n\nh. Saudara Seibu Perempuan.
+                \n\ni. Anak dari Saudara Kandung Laki-laki.
+                \n\nj. Anak dari Saudara Seayah Laki-laki.
+                \n\nk. Paman Kandung.
+                \n\nl. Paman Sekakek.
+                \n\nm. Anak Laki-laki dari Paman Kandung.
+                \n\nn. Anak Laki-laki dari Paman Sekakek."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="4. Ibu akan menghalangi waris dari:"
+            android:fontFamily="@font/lato_heavy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Nenek dari Ayah.
+                \n\nb. Nenek dari Ibu."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:text="5. Suami atau Istri tidak menghalangi siapapun"
+            android:fontFamily="@font/lato_heavy"/>
+    </LinearLayout>
+</ScrollView>

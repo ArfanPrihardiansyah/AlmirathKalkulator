@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".TentangaplikasiActivity">
+    <include layout="@layout/layout_toolbar"
+        android:id="@+id/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Aplikasi"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/lato_heavy"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:text="Kalkulator Al-Mirats"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logo Aplikasi:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/lato_heavy"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskripsi Aplikasi:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/lato_heavy"
+                android:textSize="22sp"/>
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/lato_regular"
+                android:text="Kalkulator Al-Mirats merupakan aplikasi android hasil proyek yang dihasilkan pada Trek Pengembangan Aplikasi Mobile, yang dibuat sesuai ajaran Agama Islam. Aplikasi ini akan memudahkan Anda untuk menghitung pembagian waris, dalam aplikasi ini anda juga bisa mempelajari terkait waris."
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tim Pengembang:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/lato_heavy"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:text="1. Arfan Prihardiansyah
+                \n    email: arfanprihard.info2@gmail.com
+            \n2. Bayu Mahesa
+            \n    email: bayumhsa128@gmail.com
+            \n3. Ryan Hidayat
+\n    email: ryan86877@gmail.com"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dosen Pembimbing:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/lato_heavy"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:text="Herika Hayurani, S.Kom., M.Kom.
+\nemail: herika.hayurani@gmail.com"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klien:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/lato_heavy"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:text="Dr. H. Karimulloh, M.A.
+\nemail: karimulloh@yarsi.ac.id"
+                android:fontFamily="@font/lato_regular"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sumber Konten:"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/lato_heavy"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/lato_regular"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"
+                android:text="Kementerian Agama Republik Indonesia.2022.Al-Qur'an Digital."/>
+
+            <com.uncopt.android.widget.text.justify.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/lato_regular"
+                android:layout_marginBottom="10dp"
+                android:text="Supardin.2020.Fikih Mawaris &amp; Hukum Kewarisan
+(Studi Analisis Perbandingan).Sulawesi Selatan: Pusaka Almaida."
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

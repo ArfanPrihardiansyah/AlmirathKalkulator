@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="19sp"
+            android:fontFamily="@font/lato_heavy"
+            android:id="@+id/judul"
+            android:text="Apakah yang dimaksud dengan waris ?"
+            android:textStyle="bold"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:id="@+id/isiMateri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/materinya"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="'Mawaris' dalam buku Fiqh Mawaris oleh Hasanudin, merupakan bentuk jamak dari kata 'mirats', artinya harta yang ditinggalkan oleh orang yang meninggal dunia.
+            \n\nMuhammad Ali Ash-Shabuni dalam buku Pembagian Waris Menurut Islam menyebutkan, kata 'mirats', berarti berpindahnya sesuatu dari seseorang kepada orang lain atau dari suatu kaum kepada kaum lain.
+            \n\nPara ulama mendefinisikan 'mirats', yaitu berpindahnya hak kepemilikan dari orang yang meninggal kepada ahli warisnya yang masih hidup, baik yang ditinggalkan itu berupa harta (uang), tanah, atau apa saja yang berupa hak milik legal secara syariat.
+            \n\nMawaris menurut istilah adalah pengetahuan yang berkaitan dengan harta warisan dan perhitungan untuk mengetahui kadar harta puasa yang wajib diberikan kepada tiap orang yang berhak.
+            \n\nDi sisi lain, ilmu mawaris disebut pula dengan 'faraidh', artinya bagian tertentu atau ketentuan. Jadi bisa dikatakan bahwa mawaris dan faraidh merupakan ilmu yang mempelajari kewarisan dalam Islam. "
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>

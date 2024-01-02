@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/toolbar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Apa saja ayat-ayat yang menjelaskan tentang waris ?"
+            android:textSize="19sp"
+            android:fontFamily="@font/lato_heavy"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="An-Nisā'  [4]:7"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_heavy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_heavy"
+            android:text="لِلرِّجَالِ نَصِيْبٌ مِّمَّا تَرَكَ الْوَالِدٰنِ وَالْاَقْرَبُوْنَۖ وَلِلنِّسَاۤءِ نَصِيْبٌ مِّمَّا تَرَكَ الْوَالِدٰنِ وَالْاَقْرَبُوْنَ مِمَّا قَلَّ مِنْهُ اَوْ كَثُرَ ۗ نَصِيْبًا مَّفْرُوْضًا"
+            android:textSize="24sp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_italic"
+            android:text="Bagi laki-laki ada hak bagian dari harta peninggalan kedua orang tua dan kerabatnya dan bagi perempuan ada hak bagian (pula) dari harta peninggalan kedua orang tua dan kerabatnya, baik sedikit maupun banyak, menurut bagian yang telah ditetapkan." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="An-Nisā'  [4]:11"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_heavy"
+            android:text="يُوْصِيْكُمُ اللّٰهُ فِيْٓ اَوْلَادِكُمْ لِلذَّكَرِ مِثْلُ حَظِّ الْاُنْثَيَيْنِ ۚ فَاِنْ كُنَّ نِسَاۤءً فَوْقَ اثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۚ وَاِنْ كَانَتْ وَاحِدَةً فَلَهَا النِّصْفُ ۗ وَلِاَبَوَيْهِ لِكُلِّ وَاحِدٍ مِّنْهُمَا السُّدُسُ مِمَّا تَرَكَ اِنْ كَانَ لَهٗ وَلَدٌ ۚ فَاِنْ لَّمْ يَكُنْ لَّهٗ وَلَدٌ وَّوَرِثَهٗٓ اَبَوٰهُ فَلِاُمِّهِ الثُّلُثُ ۚ فَاِنْ كَانَ لَهٗٓ اِخْوَةٌ فَلِاُمِّهِ السُّدُسُ مِنْۢ بَعْدِ وَصِيَّةٍ يُّوْصِيْ بِهَآ اَوْ دَيْنٍ ۗ اٰبَاۤؤُكُمْ وَاَبْنَاۤؤُكُمْۚ  لَا تَدْرُوْنَ اَيُّهُمْ اَقْرَبُ لَكُمْ نَفْعًا ۗ فَرِيْضَةً مِّنَ اللّٰهِ ۗ اِنَّ اللّٰهَ كَانَ عَلِيْمًا حَكِيْمًا"
+            android:textSize="24sp"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Allah mensyariatkan (mewajibkan) kepadamu tentang (pembagian warisan untuk) anak-anakmu, (yaitu) bagian seorang anak laki-laki sama dengan bagian dua orang anak perempuan.146) Jika anak itu semuanya perempuan yang jumlahnya lebih dari dua, bagian mereka dua pertiga dari harta yang ditinggalkan. Jika dia (anak perempuan) itu seorang saja, dia memperoleh setengah (harta yang ditinggalkan). Untuk kedua orang tua, bagian masing-masing seperenam dari harta yang ditinggalkan, jika dia (yang meninggal) mempunyai anak. Jika dia (yang meninggal) tidak mempunyai anak dan dia diwarisi oleh kedua orang tuanya (saja), ibunya mendapat sepertiga. Jika dia (yang meninggal) mempunyai beberapa saudara, ibunya mendapat seperenam. (Warisan tersebut dibagi) setelah (dipenuhi) wasiat yang dibuatnya atau (dan dilunasi) utangnya. (Tentang) orang tuamu dan anak-anakmu, kamu tidak mengetahui siapa di antara mereka yang lebih banyak manfaatnya bagimu. Ini adalah ketetapan Allah. Sesungguhnya Allah adalah Maha Mengetahui lagi Maha Bijaksana."
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_heavy"
+            android:text="An-Nisā'  [4]:12"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_heavy"
+            android:text="۞ وَلَكُمْ نِصْفُ مَا تَرَكَ اَزْوَاجُكُمْ اِنْ لَّمْ يَكُنْ لَّهُنَّ وَلَدٌ ۚ فَاِنْ كَانَ لَهُنَّ وَلَدٌ فَلَكُمُ الرُّبُعُ مِمَّا تَرَكْنَ مِنْۢ بَعْدِ وَصِيَّةٍ يُّوْصِيْنَ بِهَآ اَوْ دَيْنٍ ۗ وَلَهُنَّ الرُّبُعُ مِمَّا تَرَكْتُمْ اِنْ لَّمْ يَكُنْ لَّكُمْ وَلَدٌ ۚ فَاِنْ كَانَ لَكُمْ وَلَدٌ فَلَهُنَّ الثُّمُنُ مِمَّا تَرَكْتُمْ مِّنْۢ بَعْدِ وَصِيَّةٍ تُوْصُوْنَ بِهَآ اَوْ دَيْنٍ ۗ وَاِنْ كَانَ رَجُلٌ يُّوْرَثُ كَلٰلَةً اَوِ امْرَاَةٌ وَّلَهٗٓ اَخٌ اَوْ اُخْتٌ فَلِكُلِّ وَاحِدٍ مِّنْهُمَا السُّدُسُۚ  فَاِنْ كَانُوْٓا اَكْثَرَ مِنْ ذٰلِكَ فَهُمْ شُرَكَاۤءُ فِى الثُّلُثِ مِنْۢ بَعْدِ وَصِيَّةٍ يُّوْصٰى بِهَآ اَوْ دَيْنٍۙ غَيْرَ مُضَاۤرٍّ ۚ وَصِيَّةً مِّنَ اللّٰهِ ۗ وَاللّٰهُ عَلِيْمٌ حَلِيْمٌۗ"
+            android:textSize="24sp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_italic"
+            android:text="Bagimu (para suami) seperdua dari harta yang ditinggalkan oleh istri-istrimu, jika mereka tidak mempunyai anak. Jika mereka (istri-istrimu) itu mempunyai anak, kamu mendapat seperempat dari harta yang ditinggalkannya setelah (dipenuhi) wasiat yang mereka buat atau (dan setelah dibayar) utangnya. Bagi mereka (para istri) seperempat harta yang kamu tinggalkan jika kamu tidak mempunyai anak. Jika kamu mempunyai anak, bagi mereka (para istri) seperdelapan dari harta yang kamu tinggalkan (setelah dipenuhi) wasiat yang kamu buat atau (dan setelah dibayar) utang-utangmu. Jika seseorang, baik laki-laki maupun perempuan, meninggal dunia tanpa meninggalkan ayah dan anak, tetapi mempunyai seorang saudara laki-laki (seibu) atau seorang saudara perempuan (seibu), bagi masing-masing dari kedua jenis saudara itu seperenam harta. Akan tetapi, jika mereka (saudara-saudara seibu itu) lebih dari seorang, mereka bersama-sama dalam bagian yang sepertiga itu, setelah (dipenuhi wasiat) yang dibuatnya atau (dan setelah dibayar) utangnya dengan tidak menyusahkan (ahli waris).147) Demikianlah ketentuan Allah. Allah Maha Mengetahui lagi Maha Penyantun."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:textSize="18sp"
+            android:text="An-Nisā'  [4]:176"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_heavy"
+            android:text="يَسْتَفْتُوْنَكَۗ قُلِ اللّٰهُ يُفْتِيْكُمْ فِى الْكَلٰلَةِ ۗاِنِ امْرُؤٌا هَلَكَ لَيْسَ لَهٗ وَلَدٌ وَّلَهٗٓ اُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَۚ وَهُوَ يَرِثُهَآ اِنْ لَّمْ يَكُنْ لَّهَا وَلَدٌ ۚ فَاِنْ كَانَتَا اثْنَتَيْنِ فَلَهُمَا الثُّلُثٰنِ مِمَّا تَرَكَ ۗوَاِنْ كَانُوْٓا اِخْوَةً رِّجَالًا وَّنِسَاۤءً فَلِلذَّكَرِ مِثْلُ حَظِّ الْاُنْثَيَيْنِۗ يُبَيِّنُ اللّٰهُ لَكُمْ اَنْ تَضِلُّوْا ۗ وَاللّٰهُ بِكُلِّ شَيْءٍ عَلِيْمٌ ࣖ"
+            android:textSize="24sp"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_italic"
+            android:text="Mereka meminta fatwa kepadamu (tentang kalālah).191) Katakanlah, “Allah memberi fatwa kepadamu tentang kalālah, (yaitu) jika seseorang meninggal dan dia tidak mempunyai anak, tetapi mempunyai seorang saudara perempuan, bagiannya (saudara perempuannya itu) seperdua dari harta yang ditinggalkannya. Adapun saudara laki-lakinya mewarisi (seluruh harta saudara perempuan) jika dia tidak mempunyai anak. Akan tetapi, jika saudara perempuan itu dua orang, bagi keduanya dua pertiga dari harta yang ditinggalkan. Jika mereka (ahli waris itu terdiri atas) beberapa saudara laki-laki dan perempuan, bagian seorang saudara laki-laki sama dengan bagian dua orang saudara perempuan. Allah menerangkan (hukum ini) kepadamu agar kamu tidak tersesat. Allah Maha Mengetahui segala sesuatu.”"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</ScrollView>

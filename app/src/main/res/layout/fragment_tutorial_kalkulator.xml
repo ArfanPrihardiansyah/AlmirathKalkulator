@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_button"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Di halaman beranda, pilih tombol ''Kalkulator'' untuk menuju ke halaman kalkulator."
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_harta"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Setelah memilih tombol Kalkulator, Anda akan melihat halaman Harta. Di halaman Harta, Anda dapat:
+\n1. Memasukkan nominal harta serta hutang, wasiat, dan biaya perawat jenazah (bila ada) dari pewaris."
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/tutorial_clear"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="2. ⁠Menghapus semua input dengan menekan tombol tempat sampah di pojok kanan atas."
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_button_lanjut"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="3. ⁠Menekan tombol Lanjut setelah mengisi masukkan."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_table_harta_default"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Setelah memasukkan data, tabel harta bersih akan muncul."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_zoom_in"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Pada tabel harta bersih, tabel ini dapat di-zoom dengan menggunakan tombol tersebut."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_table_harta_zoom"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Table dapat digeser saat di Zoom."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_zoom_out"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Dapat dizoom out untuk mengembalikan tampilan semula."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_button_lanjut"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Setelah sudah memperhatikan table harta bersih maka dapat melanjutkan proses kalkulator perhitungan waris dengan mengklik button “Lanjut”."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_jeniskelamin"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Jika sudah klik button “Lanjut” maka akan tampil pemilihan gender ahli waris."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_button_lanjut"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Setelah memilih gender maka Klik button “Lanjut” untuk melanjutkan kalkulator perhitungan waris"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_keluarga"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Jika sudah maka akan diminta data data keluarga inti yang berupa ayah, ibu, suami (jika memilih gener ahli waris perempuan), anak laki-laki, dan anak perempuan."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_button_lanjut"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Jika sudah mengisi data yang diminta maka klik button “Lanjut”."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_pembagian_default"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Setelah mengklik button “Lanjut” maka akan tampil table pembagian waris yang akurat."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_kalkulator_button_kembali_ke_menu"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Jika ingin Kembali langsung ke Menu dapat klik “Kembali ke Menu”."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/primaryColor"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/tutorial_button_back"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Tekan tombol seperti gambar di atas jika ingin kembali ke halaman sebelumnya."
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>

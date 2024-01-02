@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/toolbar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="19sp"
+            android:text="Apa itu Aul dalam waris ?"
+            android:fontFamily="@font/lato_heavy"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Aul dalam bahasa Arab mempunyai banyak arti, di antaranya bermakna dhalim dan menyeleweng. Aul juga berarti naik atau meluap. Dalam kaitannya dengan ilmu waris, secara harfiah, aul berarti menaikkan atau meninggikan. Adapun secara istilah, ulama faraidh mendefiniskan aul sebagai terjadinya kelebihan bagian ahli waris dibandingkan dengan asal masalah (bagian atau saham harta warisan) disebabkan banyaknya furudh mereka. Artinya harta yang ditinggalkan tidak mencukupi untuk memenuhi semua furudh tersebut. Dengan kata lain, aul terjadi apabila angka pembilang lebih besar daripada angka penyebut, sedangkan harta warisan dibagi berdasarkan angka penyebut. Aul ini terjadi karena kelebihan bagian ahli waris dari asal masalah. Masalah aul ini muncul akibat jumlah bagian yang harus diberikan kepada ahli waris lebih besar dari asal masalah."
+            android:textSize="18sp"></com.uncopt.android.widget.text.justify.JustifiedTextView>
+
+    </LinearLayout>
+</ScrollView>

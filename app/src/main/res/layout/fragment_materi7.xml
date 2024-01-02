@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/toolbar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="19sp"
+            android:text="Apa itu Radd dalam waris ?"
+            android:fontFamily="@font/lato_heavy"/>
+        <com.uncopt.android.widget.text.justify.JustifiedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="Menurut bahasa, ar-radd bermakna kembali atau berpaling. Adapun menurut istilah, ar-radd adalah berkurangnya asal masalah dan bertambahnya jumlah bagian ashabul furudh. Dengan kata lain, radd itu terjadi karena kekurangan bagian ahli waris dari asal masalah atau jumlah bagian ahli waris lebih kecil dari asal masalah."
+            android:textSize="18sp"></com.uncopt.android.widget.text.justify.JustifiedTextView>
+
+    </LinearLayout>
+</ScrollView>

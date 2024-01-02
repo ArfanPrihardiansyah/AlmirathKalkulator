@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_below="@id/toolbar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="19sp"
+            android:text="Siapa saja yang berhak mendapatkan waris ?"
+            android:fontFamily="@font/lato_heavy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="1. Laki-Laki"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_heavy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Anak Laki-laki.
+                \n\nb. Cucu Laki-laki dan seterusnya ke bawah.
+                \n\nc. Bapak.
+                \n\nd. Kakek dan terus ke atas.
+                \n\ne. Saudara laki-laki sekandung (ayah dan ibu).
+                \n\nf. Saudara laki-laki seayah.
+                \n\ng. Saudara laki-laki seibu.
+                \n\nh. Anak laki-laki dari saudara laki-laki sekandung.
+                \n\ni. Anak laki-laki dari saudara laki-laki sebapak.
+                \n\nj. Paman dari bapak sekandung.
+                \n\nk. Paman dari bapak sebapak.
+                \n\nl. Anak laki-laki dari paman sekandung.
+                \n\nm. Anak laki-laki dari paman sebapak.
+                \n\nn. Suami."
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15sp"
+            android:textSize="18sp"
+            android:fontFamily="@font/lato_heavy"
+            android:text="2. Perempuan"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/lato_regular"
+            android:text="a. Anak Perempuan.
+                \n\nb. Cucu perempuan dari anak laki-laki.
+                \n\nc. Ibu.
+                \n\ne. Nenek dari ibu.
+                \n\nf. Nenek dari bapak.
+                \n\ng. Saudara perempuan sekandung.
+                \n\nh. Saudara perempuan sebapak.
+                \n\ni. Saudara perempuan seibu.
+                \n\nj. Istri."
+            android:textSize="18sp"></TextView>
+    </LinearLayout>
+</ScrollView>
