@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".TableHartaActivity">
+    tools:context=".harta.TableHartaActivity">
     <include layout="@layout/layout_toolbar" android:id="@+id/toolbar_tableHarta"/>
     <ScrollView
         android:layout_width="match_parent"

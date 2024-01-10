@@ -61,7 +61,7 @@
                     android:layout_below="@+id/txt_pilih"
                     android:layout_marginLeft="65dp"
                     android:layout_marginTop="25dp"
-                    android:text="Anonymous"
+                    android:text="Anonim"
                     android:textSize="22sp"
                     android:fontFamily="@font/lato_heavy"/>
                 <TextView
@@ -79,7 +79,7 @@
                 android:id="@+id/input_email"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:hint="\@example.com"
+                android:hint="username@example.com"
                 android:inputType="textEmailAddress"
                 android:layout_marginStart="20dp"
                 android:layout_marginEnd="20dp"

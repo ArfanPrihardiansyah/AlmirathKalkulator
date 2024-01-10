@@ -10,18 +10,9 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.example.almirathkalkulator.HartaActivity
+import com.example.almirathkalkulator.harta.HartaActivity
 import com.example.almirathkalkulator.R
-import com.example.almirathkalkulator.databinding.ActivityMateriBinding
 import com.example.almirathkalkulator.databinding.ActivityTutorialBinding
-import com.example.almirathkalkulator.materi.Materi1Fragment
-import com.example.almirathkalkulator.materi.Materi2Fragment
-import com.example.almirathkalkulator.materi.Materi3Fragment
-import com.example.almirathkalkulator.materi.Materi4Fragment
-import com.example.almirathkalkulator.materi.Materi5Fragment
-import com.example.almirathkalkulator.materi.Materi6Fragment
-import com.example.almirathkalkulator.materi.Materi7Fragment
-import com.example.almirathkalkulator.materi.Materi8Fragment
 
 class TutorialActivity : AppCompatActivity() {
     private lateinit var binding: ActivityTutorialBinding

@@ -17,7 +17,7 @@
             android:name=".tutorial.TutorialActivity"
             android:exported="false" />
         <activity
-            android:name=".DaftarTutorialActivity"
+            android:name=".tutorial.DaftarTutorialActivity"
             android:exported="false" />
         <activity
             android:name=".TentangaplikasiActivity"
@@ -29,7 +29,7 @@
             android:name=".materi.MateriActivity"
             android:exported="false" />
         <activity
-            android:name=".DaftarMateriActivity"
+            android:name=".materi.DaftarMateriActivity"
             android:exported="false" />
         <activity
             android:name=".SplashActivity"
@@ -41,16 +41,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TableHartaActivity"
+            android:name=".harta.TableHartaActivity"
             android:exported="false" />
         <activity
-            android:name=".HasilKalkulatorActivity"
+            android:name=".hasil_pembagian.HasilKalkulatorActivity"
             android:exported="false" />
         <activity
-            android:name=".WarisUtamaActivity"
+            android:name=".data_waris.WarisUtamaActivity"
             android:exported="false" />
         <activity
-            android:name=".HartaActivity"
+            android:name=".harta.HartaActivity"
             android:exported="false" />
         <activity
             android:name=".JenisKelaminPewarisActivity"

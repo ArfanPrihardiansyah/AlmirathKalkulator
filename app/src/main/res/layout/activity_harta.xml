@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".HartaActivity">
+    tools:context=".harta.HartaActivity">
     <include layout="@layout/layout_toolbar"/>
     <LinearLayout
         android:layout_width="match_parent"

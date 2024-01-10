@@ -3,7 +3,6 @@ package com.example.almirathkalkulator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Editable
 import android.util.Log
 import android.view.View
 import android.widget.ImageView
@@ -11,9 +10,11 @@ import android.widget.RadioGroup
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
+import com.example.almirathkalkulator.data_waris.AppDatabase
+import com.example.almirathkalkulator.data_waris.WarisDataDao
+import com.example.almirathkalkulator.data_waris.WarisUtamaActivity
 import com.example.almirathkalkulator.databinding.ActivityJenisKelaminPewarisBinding
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 

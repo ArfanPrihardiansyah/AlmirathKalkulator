@@ -4,6 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.almirathkalkulator.databinding.ActivityMainBinding
+import com.example.almirathkalkulator.harta.HartaActivity
+import com.example.almirathkalkulator.materi.DaftarMateriActivity
+import com.example.almirathkalkulator.tutorial.DaftarTutorialActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
