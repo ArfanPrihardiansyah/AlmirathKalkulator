@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "551116787383",
-    "project_id": "almirath-kalkulator",
-    "storage_bucket": "almirath-kalkulator.appspot.com"
+    "project_id": "kalkulatoralmirats",
+    "storage_bucket": "kalkulatoralmirats.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:551116787383:android:ae16fd60061dd154808732",
         "android_client_info": {
-          "package_name": "com.example.almirathkalkulator"
+          "package_name": "com.example.kalkulatoralmirats"
         }
       },
       "oauth_client": [],

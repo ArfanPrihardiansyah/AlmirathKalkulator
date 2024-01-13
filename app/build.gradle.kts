@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.almirathkalkulator"
+    namespace = "com.example.kalkulatoralmirats"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.almirathkalkulator"
+        applicationId = "com.example.kalkulatoralmirats"
         minSdk = 27
         targetSdk = 33
         versionCode = 1

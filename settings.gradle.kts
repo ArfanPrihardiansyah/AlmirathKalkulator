@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Almirath Kalkulator"
+rootProject.name = "Kalkulator Al-Mirats"
 include(":app")
  
