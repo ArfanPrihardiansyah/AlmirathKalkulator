@@ -1,13 +1,16 @@
 package com.example.almirathkalkulator.materi
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.almirathkalkulator.MainActivity
 import com.example.almirathkalkulator.R
 import com.example.almirathkalkulator.databinding.ActivityDaftarMateriBinding
+import com.example.almirathkalkulator.harta.HartaActivity
 
 class DaftarMateriActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDaftarMateriBinding
@@ -22,6 +25,7 @@ class DaftarMateriActivity : AppCompatActivity() {
         buttonBack.setOnClickListener {
             finish()
         }
+
 
         val buttonDelete: ImageView = findViewById(R.id.btn_delete)
         buttonDelete.visibility = View.GONE
@@ -61,5 +65,11 @@ class DaftarMateriActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+    @SuppressLint("MissingSuperCall")
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+        startActivity(intent)
     }
 }

@@ -1,5 +1,6 @@
 package com.example.almirathkalkulator
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,6 +15,7 @@ import com.example.almirathkalkulator.data_waris.AppDatabase
 import com.example.almirathkalkulator.data_waris.WarisDataDao
 import com.example.almirathkalkulator.data_waris.WarisUtamaActivity
 import com.example.almirathkalkulator.databinding.ActivityJenisKelaminPewarisBinding
+import com.example.almirathkalkulator.harta.HartaActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

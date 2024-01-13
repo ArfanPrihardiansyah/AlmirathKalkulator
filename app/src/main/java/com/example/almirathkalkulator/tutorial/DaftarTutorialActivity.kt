@@ -1,5 +1,6 @@
 package com.example.almirathkalkulator.tutorial
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +8,10 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.example.almirathkalkulator.MainActivity
 import com.example.almirathkalkulator.R
 import com.example.almirathkalkulator.databinding.ActivityDaftarTutorialBinding
+import com.example.almirathkalkulator.harta.HartaActivity
 
 class DaftarTutorialActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDaftarTutorialBinding
@@ -50,7 +53,7 @@ class DaftarTutorialActivity : AppCompatActivity() {
         }
     }
     fun openYouTubeVideo() {
-        val videoId = "mz67QnStdD8"
+        val videoId = "1qJlB50ZtoQ"
 
         val intentApp = Intent(Intent.ACTION_VIEW, Uri.parse("vnd.youtube:$videoId"))
         val intentWeb = Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=$videoId"))
@@ -63,5 +66,10 @@ class DaftarTutorialActivity : AppCompatActivity() {
             startActivity(intentWeb)
         }
     }
-
+    @SuppressLint("MissingSuperCall")
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+        startActivity(intent)
+    }
 }

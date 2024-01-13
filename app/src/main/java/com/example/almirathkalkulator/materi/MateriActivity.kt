@@ -71,7 +71,7 @@ class MateriActivity : AppCompatActivity() {
     }
     @SuppressLint("MissingSuperCall")
     override fun onBackPressed() {
-        val intent = Intent(this, HartaActivity::class.java)
+        val intent = Intent(this, DaftarMateriActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
         startActivity(intent)
     }

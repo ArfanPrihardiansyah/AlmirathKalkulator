@@ -1,5 +1,6 @@
 package com.example.almirathkalkulator.harta
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,6 +13,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
+import com.example.almirathkalkulator.MainActivity
 import com.example.almirathkalkulator.data_waris.AppDatabase
 import com.example.almirathkalkulator.R
 import com.example.almirathkalkulator.data_waris.WarisDataDao
@@ -162,6 +164,7 @@ class HartaActivity : AppCompatActivity() {
             }
         })
     }
+
     private fun getTextWatcher(
         editText1: EditText,
         editText2: EditText,
@@ -189,16 +192,25 @@ class HartaActivity : AppCompatActivity() {
             }
 
             override fun afterTextChanged(editable: Editable?) {
-                if (editText1.text.isNullOrEmpty() &&
-                    editText2.text.isNullOrEmpty() &&
-                    editText3.text.isNullOrEmpty() &&
-                    editText4.text.isNullOrEmpty()
-                ) {
-                    button.visibility = View.INVISIBLE
-                } else {
-                    button.visibility = View.VISIBLE
+                lifecycleScope.launch(Dispatchers.Main) {
+                    if (editText1.text.isNullOrEmpty() &&
+                        editText2.text.isNullOrEmpty() &&
+                        editText3.text.isNullOrEmpty() &&
+                        editText4.text.isNullOrEmpty()
+                    ) {
+                        button.visibility = View.INVISIBLE
+                    } else {
+                        button.visibility = View.VISIBLE
+                    }
                 }
             }
         }
+
+    }
+    @SuppressLint("MissingSuperCall")
+    override fun onBackPressed() {
+        val intent = Intent(this, MainActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP)
+        startActivity(intent)
     }
 }
